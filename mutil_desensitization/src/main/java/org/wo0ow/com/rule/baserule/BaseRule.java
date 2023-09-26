@@ -1,4 +1,4 @@
-package org.wo0ow.com.rule;
+package org.wo0ow.com.rule.baserule;
 
 import lombok.Data;
 import org.wo0ow.com.rule.ruleitem.RuleItem;
@@ -24,6 +24,7 @@ public abstract class BaseRule implements Function<String, String> {
         //正则替换
         return str.replaceAll(rule.getRegex(), rule.getFormat());
     }
-    abstract void initRule();
+
+    protected abstract void initRule();
 
 }

@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ser.ContextualSerializer;
 import lombok.extern.slf4j.Slf4j;
 import org.wo0ow.com.rule.ruleitem.RuleItem;
 import org.wo0ow.com.annotation.CustomSerializer;
-import org.wo0ow.com.rule.BaseRule;
+import org.wo0ow.com.rule.baserule.BaseRule;
 
 import java.io.IOException;
 

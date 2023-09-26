@@ -1,5 +1,7 @@
 package org.wo0ow.com.rule;
 
+import org.wo0ow.com.rule.baserule.BaseRule;
+
 public class PasswordRule extends BaseRule {
     /**
      * 全部隐藏
@@ -10,7 +12,7 @@ public class PasswordRule extends BaseRule {
     }
 
     @Override
-    void initRule() {
+    public void initRule() {
 
     }
 }

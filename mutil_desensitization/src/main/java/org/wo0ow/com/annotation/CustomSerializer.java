@@ -3,7 +3,7 @@ package org.wo0ow.com.annotation;
 import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.wo0ow.com.JsonSerializer.MyJsonSerializer;
-import org.wo0ow.com.rule.BaseRule;
+import org.wo0ow.com.rule.baserule.BaseRule;
 import org.wo0ow.com.rule.DefaultRule;
 
 import java.lang.annotation.*;
